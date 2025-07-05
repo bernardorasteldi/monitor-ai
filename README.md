@@ -118,3 +118,42 @@ http://localhost:8001/upload/
 ```
 http://localhost:8002/perguntar/?pergunta=sua-pergunta
 ```
+### Validação do Problema
+
+1. Relevância do Problema
+
+No ambiente acadêmico, alunos frequentemente se deparam com dúvidas pontuais sobre conteúdos de disciplinas, especialmente ao estudar de forma autônoma fora do horário das aulas, caso muito comum em cursos a distância, onde o acesso a tutores, monitores ou mesmo ao professor é mais restrito. Essas dúvidas incluem:
+
+- Conceitos técnicos vistos em aula;
+
+- Interpretação de trechos de slides, textos ou PDFs;
+
+- Aplicações práticas de fórmulas, algoritmos ou teorias.
+
+Apesar de haver materiais disponíveis, os alunos muitas vezes não sabem onde encontrar a resposta rapidamente ou têm dificuldades em interpretar textos técnicos isoladamente.
+
+Nesses casos os alunos acabam dependento da disponibilidade do professor ou monitor para tirar dúvidas — o que nem sempre ocorre de forma imediata.
+
+Essa lacuna entre disponibilidade da informação e acesso contextualizado e ágil ao conhecimento compromete o aprendizado, aumenta a frustração e dificulta a aprendizagem contínua, especialmente em disciplinas de alta complexidade.
+
+2. O que o projeto resolve
+
+O IA Monitor de Disciplina propõe uma solução baseada em agentes de inteligência artificial para automatizar o esclarecimento de dúvidas dos alunos, utilizando os próprios materiais da disciplina como base de conhecimento.
+
+3. Como funciona:
+
+O Agente 1 (Indexador) permite ao professor ou ao aluno fazer upload de PDFs da disciplina (como apostilas, slides ou artigos). O sistema extrai e organiza o conteúdo, criando uma base vetorial semântica.
+
+O Agente 2 (Respondedor) interpreta a pergunta feita pelo aluno, consulta a base de conhecimento do Agente 1 e gera uma resposta relevante e contextualizada utilizando modelos de linguagem (Transformers).
+
+4. Impactos esperados
+
+Acesso imediato e inteligente a respostas, mesmo fora do horário de aula.
+
+Redução da sobrecarga de professores e monitores em atendimentos repetitivos.
+
+Aprendizado contínuo e autônomo por parte dos alunos.
+
+Flexibilidade para uso em diferentes disciplinas e cursos, adaptando os materiais de entrada conforme necessário.
+
+Foco no contéudo disinibilizado pelo professor, evitando busca em materiais não indicados ou foro do escopo da disciplina.
